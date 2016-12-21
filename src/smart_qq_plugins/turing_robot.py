@@ -9,7 +9,7 @@ from smart_qq_bot.signals import on_all_message
 # 另外需要 requests 支持
 # 修改成调用图灵官方接口
 url = 'http://www.tuling123.com/openapi/api'
-apikey = ''
+apikey = 'bd5796d4bfcd4a758bcf5ea8e5caacdb'
 
 @on_all_message
 def turing_robot(msg, bot):
